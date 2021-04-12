@@ -1,3 +1,5 @@
 allow hal_graphics_composer_default diag_device:chr_file rw_file_perms;
+# Allow hal_graphics_composer_default to read the motor sysfs nodes
+r_dir_file(hal_graphics_composer_default, sysfs_motor)
 allow hal_graphics_composer_default bootanim_system_prop:file read;
 get_prop(hal_graphics_composer_default, bootanim_system_prop)

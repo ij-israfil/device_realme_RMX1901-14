@@ -18,6 +18,10 @@ allow system_app proc_vmallocinfo:file r_file_perms;
 allow system_app proc_pagetypeinfo:file r_file_perms;
 allow system_app sysfs_zram:dir search;
 allow system_app sysfs_zram:file r_file_perms;
+
+# Allow system apps to access sysfs_motor
+allow system_app sysfs_motor:dir search;
+allow system_app sysfs_motor:file { getattr open read write };
 allow system_app proc_kcal_file:file { getattr open read write };
 allow system_app proc_kcal_file:dir search;
 allow system_app {

@@ -23,6 +23,10 @@
             </intent-filter>
         </receiver>
 
+        <service android:name="org.lineageos.camerahelper.CameraMotorService"
+                 android:permission="RealmeCameraHelperService">
+        </service>
+
         <service android:name="org.lineageos.camerahelper.FallSensorService"
                  android:permission="RealmeCameraHelperService">
         </service>
