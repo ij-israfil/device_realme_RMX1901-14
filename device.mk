@@ -416,6 +416,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
     init.target.rc \
+    init.oppo.vendor.motor.rc \
     ueventd.qcom.rc
 
 PRODUCT_COPY_FILES += \
