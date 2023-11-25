@@ -86,43 +86,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <fqname>@3.0::IMapper/default</fqname>
         <fqname>@4.0::IMapper/default</fqname>
     </hal>
-    <hal format="hidl">
-        <name>android.hardware.nfc</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>INfc</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.nxp.hardware.nfc</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>INqNfc</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.nxp.nxpnfc</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>INxpNfc</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.nxp.nxpese</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>INxpEse</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
+	<hal format="hidl">
         <name>android.hardware.secure_element</name>
         <transport>hwbinder</transport>
         <version>1.2</version>
@@ -131,7 +95,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>SIM1</instance>
             <instance>SIM2</instance>
         </interface>
-    </hal>
+	</hal>
     <hal format="hidl">
         <name>android.hardware.graphics.composer</name>
         <transport>hwbinder</transport>
@@ -214,9 +178,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <!-- qccvndhal -->
-    <hal format="hidl"> 
-        <name>vendor.qti.hardware.qccvndhal</name> 
-        <transport>hwbinder</transport> 
+    <hal format="hidl">
+        <name>vendor.qti.hardware.qccvndhal</name>
+        <transport>hwbinder</transport>
         <fqname>@1.0::IQccvndhal/qccvndhal</fqname>
     </hal>
     <!-- QSEECom HAL service -->
@@ -264,19 +228,19 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
        </interface>
     </hal>
     <!-- gnss -->
-    <hal format="hidl"> 
-        <name>android.hardware.gnss</name> 
-        <transport>hwbinder</transport> 
-        <fqname>@1.0::IGnss/gnss_vendor</fqname> 
-        <fqname>@1.1::IGnss/default</fqname> 
+    <hal format="hidl">
+        <name>android.hardware.gnss</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IGnss/gnss_vendor</fqname>
+        <fqname>@1.1::IGnss/default</fqname>
         <fqname>@2.1::IGnss/default</fqname>
     </hal>
-    <hal format="hidl"> 
-        <name>vendor.qti.gnss</name> 
-        <transport>hwbinder</transport> 
-        <fqname>@1.2::ILocHidlGnss/gnss_vendor</fqname> 
-        <fqname>@2.1::ILocHidlGnss/gnss_vendor</fqname> 
-        <fqname>@3.0::ILocHidlGnss/gnss_vendor</fqname> 
+    <hal format="hidl">
+        <name>vendor.qti.gnss</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::ILocHidlGnss/gnss_vendor</fqname>
+        <fqname>@2.1::ILocHidlGnss/gnss_vendor</fqname>
+        <fqname>@3.0::ILocHidlGnss/gnss_vendor</fqname>
         <fqname>@4.0::ILocHidlGnss/gnss_vendor</fqname>
     </hal>
    <!-- RIL AUDIO HAL -->
@@ -302,12 +266,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
            </interface>
     </hal>
     <!--ANT-->
-    <hal format="hidl"> 
-        <name>com.dsi.ant</name> 
-        <transport>hwbinder</transport> 
+    <hal format="hidl">
+        <name>com.dsi.ant</name>
+        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IAnt</name> 
+            <name>IAnt</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -526,21 +490,21 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
        <fqname>@1.2::ISap/slot1</fqname>
        <fqname>@1.2::ISap/slot2</fqname>
    </hal>
-   <hal format="hidl"> 
-        <name>vendor.oplus.hardware.radio</name> 
-        <transport>hwbinder</transport> 
-        <fqname>@1.0::IOplusRadio/oplus_slot1</fqname> 
+   <hal format="hidl">
+        <name>vendor.oplus.hardware.radio</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IOplusRadio/oplus_slot1</fqname>
         <fqname>@1.0::IOplusRadio/oplus_slot2</fqname>
    </hal>
-   <hal format="hidl"> 
-        <name>vendor.oplus.hardware.appradio</name> 
-        <transport>hwbinder</transport> 
-        <fqname>@1.0::IOplusAppRadio/oplus_app_slot1</fqname> 
+   <hal format="hidl">
+        <name>vendor.oplus.hardware.appradio</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IOplusAppRadio/oplus_app_slot1</fqname>
         <fqname>@1.0::IOplusAppRadio/oplus_app_slot2</fqname>
    </hal>
-   <hal format="hidl"> 
-        <name>vendor.oplus.hardware.ims</name> 
-        <transport>hwbinder</transport> 
+   <hal format="hidl">
+        <name>vendor.oplus.hardware.ims</name>
+        <transport>hwbinder</transport>
         <fqname>@1.0::IOplusImsRadio/oplusimsradio0</fqname>
         <fqname>@1.0::IOplusImsRadio/oplusimsradio1</fqname>
    </hal>
@@ -635,12 +599,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl"> 
-        <name>vendor.qti.hardware.dsp</name> 
-        <transport>hwbinder</transport> 
+    <hal format="hidl">
+        <name>vendor.qti.hardware.dsp</name>
+        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IDspService</name> 
+            <name>IDspService</name>
             <instance>dspservice</instance>
         </interface>
     </hal>

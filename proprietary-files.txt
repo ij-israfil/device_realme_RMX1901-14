@@ -521,7 +521,7 @@ vendor/lib64/libsysmon_cdsp_skel.so
 vendor/bin/hvdcp_opti
 
 # Charger Firmware
-odm/firmware/fastchg/19651/oplus_vooc_fw.bin
+odm/firmware/fastchg/18041/oplus_vooc_fw.bin
 
 # CNE
 -vendor/app/CneApp/CneApp.apk
@@ -1389,9 +1389,9 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Touchpanel Firmware
-odm/firmware/tp/19651/FW_S3706_SAMSUNG.img
-odm/firmware/tp/19651/FW_S3706_SAMSUNG_FAE.img
-odm/firmware/tp/19651/LIMIT_S3706_SAMSUNG.img
+odm/firmware/tp/18041/FW_S3706_SAMSUNG.img
+odm/firmware/tp/18041/FW_S3706_SAMSUNG_FAE.img
+odm/firmware/tp/18041/LIMIT_S3706_SAMSUNG.img
 
 # Thermal
 vendor/bin/hw/android.hardware.thermal@2.0-service.qti

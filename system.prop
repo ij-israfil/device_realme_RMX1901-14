@@ -6,7 +6,6 @@ ro.camera.hfr.enable=0
 persist.camera.HAL3.enabled=1
 ro.camera.relight.enable=0
 ro.camera.attr.detect.enable=1
-ro.camera.notify_nfc=1
 camera.disable_zsl_mode=true
 
 # Charger
@@ -88,10 +87,6 @@ ro.media.recorder-max-base-layer-fps=60
 
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
-
-# NFC
-ro.hardware.nfc_nci=nqx.default
-ro.nfc.port=I2C
 
 # One handed mode
 ro.support_one_handed_mode=true

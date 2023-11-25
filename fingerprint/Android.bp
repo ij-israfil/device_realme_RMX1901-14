@@ -1,8 +1,8 @@
 cc_binary {
-    name: "android.hardware.biometrics.fingerprint@2.3-service.xt",
+    name: "android.hardware.biometrics.fingerprint@2.3-service.x",
     defaults: ["hidl_defaults"],
-    init_rc: ["android.hardware.biometrics.fingerprint@2.3-service.xt.rc"],
-    vintf_fragments: ["android.hardware.biometrics.fingerprint@2.3-service.xt.xml"],
+    init_rc: ["android.hardware.biometrics.fingerprint@2.3-service.x.rc"],
+    vintf_fragments: ["android.hardware.biometrics.fingerprint@2.3-service.x.xml"],
     relative_install_path: "hw",
     srcs: [
         "BiometricsFingerprint.cpp",
@@ -27,7 +27,7 @@ cc_binary {
 }
 
 cc_library_static {
-    name: "libudfps_extension.xt",
+    name: "libudfps_extension.x",
     srcs: ["UdfpsExtension.cpp"],
     include_dirs: [
         "frameworks/native/services/surfaceflinger/CompositionEngine/include",

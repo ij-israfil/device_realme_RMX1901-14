@@ -98,7 +98,7 @@ bluetooth.profile.pan.nap.enabled?=true
 bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
-bluetooth.device.default_name=realme XT
+bluetooth.device.default_name=realme X
 persist.vendor.qcom.bluetooth.soc=cherokee
 vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.bt.aac_frm_ctl.enabled=true
@@ -200,7 +200,7 @@ debug.sf.earlyGl.app.duration=21000000
 persist.sys.binary_xml=false
 
 # USB
-vendor.usb.product_string=realme XT
+vendor.usb.product_string=realme X
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
 vendor.usb.qdss.inst.name=qdss
