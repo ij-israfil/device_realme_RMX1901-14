@@ -167,7 +167,6 @@ odm/etc/camera/singleblur/gasryuv.model
 odm/etc/camera/singleblur/merged_model
 odm/etc/camera/singleblur/merged_model_post
 odm/etc/camera/oppo_camera_config.xml
-odm/etc/camera/stereoParams.bin
 odm/lib/libSNPE_G.so
 odm/lib64/libormshalclient.so
 odm/lib64/libswresample.so
@@ -460,14 +459,12 @@ vendor/lib/camera/com.qti.sensor.s5k2x5.so
 vendor/lib/camera/com.qti.sensor.s5k3p9sp.so
 vendor/lib/camera/com.qti.sensor.s5kgw1.so
 vendor/lib/camera/com.qti.sensor.sp2509v.so
-vendor/lib/camera/com.qti.sensormodule.holitech_gc2375h.bin
-vendor/lib/camera/com.qti.sensormodule.holitech_sp2509v.bin
-vendor/lib/camera/com.qti.sensormodule.sunny_hi846.bin
 vendor/lib/camera/com.qti.sensormodule.trulyi2c20_imx471.bin
-vendor/lib/camera/com.qti.tuned.holitech_gc2375h.bin
-vendor/lib/camera/com.qti.tuned.holitech_sp2509v.bin
-vendor/lib/camera/com.qti.tuned.sunny_hi846.bin
+vendor/lib/camera/com.qti.sensormodule.ofilm_gc5035.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_imx586.bin
 vendor/lib/camera/com.qti.tuned.truly_imx471.bin
+vendor/lib/camera/com.qti.tuned.ofilm_gc5035.bin
+vendor/lib/camera/com.qti.tuned.sunny_imx586.bin
 vendor/lib64/camera/com.qti.sensor.gc2375h.so
 vendor/lib64/camera/com.qti.sensor.gc5035.so
 vendor/lib64/camera/com.qti.sensor.hi846.so
@@ -480,27 +477,16 @@ vendor/lib64/camera/com.qti.sensor.s5k2x5.so
 vendor/lib64/camera/com.qti.sensor.s5k3p9sp.so
 vendor/lib64/camera/com.qti.sensor.s5kgw1.so
 vendor/lib64/camera/com.qti.sensor.sp2509v.so
-vendor/lib64/camera/com.qti.sensormodule.holitech_gc2375h.bin
-vendor/lib64/camera/com.qti.sensormodule.holitech_sp2509v.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_hi846.bin
 vendor/lib64/camera/com.qti.sensormodule.trulyi2c20_imx471.bin
-vendor/lib64/camera/com.qti.tuned.holitech_gc2375h.bin
-vendor/lib64/camera/com.qti.tuned.holitech_sp2509v.bin
-vendor/lib64/camera/com.qti.tuned.sunny_hi846.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_gc5035.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_imx586.bin
 vendor/lib64/camera/com.qti.tuned.truly_imx471.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_gc5035.bin
+vendor/lib64/camera/com.qti.tuned.sunny_imx586.bin
 
 # Camera (Device)
-vendor/lib/camera/com.qti.sensormodule.qtech_s5kgw1.bin
-vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1.bin
-vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1_evt0_2.bin
-vendor/lib/camera/com.qti.tuned.qtech_s5kgw1.bin
-vendor/lib/camera/com.qti.tuned.sunny_s5kgw1.bin
 vendor/lib/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so
-vendor/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1_evt0_2.bin
-vendor/lib64/camera/com.qti.tuned.qtech_s5kgw1.bin
-vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin
+vendor/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so
 
 # Camera Firmware
 vendor/firmware/CAMERA_ICP.elf
@@ -522,6 +508,7 @@ vendor/bin/hvdcp_opti
 
 # Charger Firmware
 odm/firmware/fastchg/18041/oplus_vooc_fw.bin
+odm/firmware/fastchg/18041/oplus_vooc_fw_n76e.bin
 
 # CNE
 -vendor/app/CneApp/CneApp.apk
