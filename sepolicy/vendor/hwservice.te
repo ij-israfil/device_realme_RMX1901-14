@@ -1,4 +1,3 @@
-type nfc_hwservice, hwservice_manager_type;
 type dcs_hwservice, hwservice_manager_type;
 type opporadio_hwservice, hwservice_manager_type;
 type hal_mwqemadapter_hwservice, hwservice_manager_type, protected_hwservice;
