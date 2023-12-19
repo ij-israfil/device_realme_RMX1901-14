@@ -28,6 +28,12 @@
     <!-- the padding on the end of the statusbar -->
     <dimen name="status_bar_padding_end">5dp</dimen>
 	
+    <!-- The width/height of the unlock icon view on keyguard. -->
+    <dimen name="keyguard_indication_margin_bottom">10dp</dimen>
+
+    <!-- The text size for battery level -->
+    <dimen name="battery_level_text_size">11sp</dimen>
+    
     <!-- Bottom margin size when fingerprint in display is active -->
     <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">25dp</dimen>
 
