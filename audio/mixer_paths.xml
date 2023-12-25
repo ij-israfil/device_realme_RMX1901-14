@@ -1962,6 +1962,11 @@
         <ctl name="VoiceMMode1_Tx Mixer INT3_MI2S_TX_MMode1" value="1" />
     </path>
 
+	<path name="voicemmode1-call hearing-aid">
+		<ctl name="AFE_PCM_RX_Voice Mixer VoiceMMode1" value="1"/>
+		<ctl name="VoiceMMode1_Tx Mixer INT3_MI2S_TX_MMode1" value="1"/>
+	</path>
+
     <path name="voicemmode1-call handset">
         <ctl name="INT0_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer INT3_MI2S_TX_MMode1" value="1" />
@@ -2009,6 +2014,11 @@
         <ctl name="INT0_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer INT3_MI2S_TX_MMode2" value="1" />
     </path>
+	
+	<path name="voicemmode2-call hearing-aid">
+		<ctl name="AFE_PCM_RX_Voice Mixer VoiceMMode2" value="1"/>
+		<ctl name="VoiceMMode2_Tx Mixer INT3_MI2S_TX_MMode2" value="1"/>
+	</path>
 
     <path name="voicemmode2-call headphones">
         <ctl name="VOC_EXT_EC MUX" value="NONE" />
@@ -2327,6 +2337,10 @@
         <ctl name="ADC2 MUX" value="INP3" />
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
         <ctl name="INT3_MI2S_TX Channels" value="One" />
+    </path>
+	
+	<path name="hearing-aid-mic">
+        <path name="handset-mic" />
     </path>
 
     <path name="handset-mic-db">
@@ -3381,5 +3395,16 @@
     <path name="hifi-record usb-headset-mic">
         <ctl name="MultiMedia2 Mixer USB_AUDIO_TX" value="1" />
     </path>
+	
+	<path name="transmission-fm"></path>
+
+	<path name="voicemmode1-call transmission-fm">
+		<path name="voicemmode1-call hearing-aid" />
+	</path>
+
+	<path name="voicemmode2-call transmission-fm">
+		<path name="voicemmode2-call hearing-aid" />
+	</path>
+
 
 </mixer>
