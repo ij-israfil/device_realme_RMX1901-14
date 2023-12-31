@@ -453,8 +453,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/qcom/opensource/usb/etc \
     hardware/qcom-caf/sdm845 \
-    hardware/google/pixel \
-    hardware/nxp
+    hardware/google/pixel
 
 # SystemUI
 EXCLUDE_SYSTEMUI_TESTS := true
