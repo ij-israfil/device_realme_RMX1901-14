@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2021 The AOSP Project
+     Copyright (C) 2021-2023 Project Elixir
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -14,5 +14,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
      
 	 <!-- About device screen, build maintainer -->
-    <string name="build_maintainer_summary">м∂ ιѕяαƒιℓ</string>
+    <string name="elixir_maintainer_summary">м∂ ιѕяαƒιℓ</string>
 </resources>

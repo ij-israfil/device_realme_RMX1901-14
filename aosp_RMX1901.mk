@@ -4,10 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common AOSP stuff
+# Inherit some common Project Elixir stuff.
+
 TARGET_BOOT_ANIMATION_RES := 1080
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from RMX1901 device
